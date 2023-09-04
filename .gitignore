@@ -1,0 +1,19 @@
+node_modules/
+# Operating system files
+.DS_Store
+Thumbs.db
+# VScode
+.vscode/
+!.vscode/settings.json
+# Build
+build/
+dist/
+# Temporary files
+*.tmp
+*.log
+*.bak
+# Dependency management
+package-lock.json
+composer.lock
+# Logs
+*.log

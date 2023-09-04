@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "outDir": "./dist",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    // Typeschecking
+    "strict": true,
+    "noUnusedLocals": true,
+    "exactOptionalPropertyTypes": true,
+    "noUnusedParameters": true,
+  },
+  "exclude": [
+    "**/node_modules",
+    "**/dist"
+  ],
+  "include": [
+    "src"
+  ],
+}
